@@ -1,5 +1,13 @@
-const redesSociais= ["Facebook", "Instagram", "X"];
 
-for (let i = 0; i < redesSociais.length; i++){
-    console.log(`Eu tenho perfil na rede social: ${redesSociais[i]}`)
-}
+const alunos = ['Gustavo', 'Julia', 'Paula', 'Wagner'];
+
+
+
+const alunos2 = alunos.map(function(itemAtual){
+    itemAtual = {
+        nome: itemAtual,
+        curso: 'Front-End',
+        nota :[10,3,5,8]
+    }
+    return itemAtual;
+})
